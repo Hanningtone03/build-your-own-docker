@@ -1,0 +1,11 @@
+{
+  "mycontainer-1780823808": {
+    "id": "mycontainer-1780823808",
+    "name": "mycontainer",
+    "image": "base",
+    "command": "echo hello from container",
+    "status": "exited",
+    "started_at": "2026-06-07 12:16:48",
+    "exit_code": 0
+  }
+}
