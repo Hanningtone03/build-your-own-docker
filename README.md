@@ -1,10 +1,10 @@
 # Build Your Own Docker
 
-A container runtime built from scratch in Python — supports process isolation, memory limits, image management, and container lifecycle.
+A container runtime built from scratch in Python; supports process isolation, memory limits, image management, and container lifecycle.
 
 ## How it works
 
-Docker uses two Linux kernel features under the hood — namespaces for isolation and cgroups for resource limits. This project implements both from scratch:
+Docker uses two Linux kernel features under the hood; namespaces for isolation and cgroups for resource limits. This project implements both from scratch:
 
 - Creates lightweight filesystem images with isolated directory trees
 - Runs commands inside isolated containers with their own hostname
